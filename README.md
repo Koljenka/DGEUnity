@@ -1,9 +1,9 @@
 # OAuth2
 
 **This package includes:**
- - A [oauth2](https://oauth.net/2/) authorization server
+ - A [Oauth2](https://oauth.net/2/) authorization server
  - A [MySQL](https://www.mysql.com/) database in which the user data as well as the oauth data is stored
- - A [angular](https://angular.io/) webapp for administrative tasks
+ - A [Angular](https://angular.io/) webapp for administrative tasks
  
 ## Startup
  
@@ -53,7 +53,7 @@ And now you can access the database using the support tool.
 - `OAUTH_INTERN_REDIRECT_PORT`
     - The port with which the server redirects internally. This needs to be the same as the forwarded port in the `ports` section
 - `ALLOW_FACEBOOK_LOGIN`
-    - If you set this to `true` a _Login with Facebook_ button will appear on the login window.
+    - If you set this to `true` a _Login with Facebook_ button will appear in the login window.
     If you want to use this you will have to set the following attributes.
 - `FACEBOOK_CLIENT_ID` 
     - You will get this ID from the Facebook developer console, where you have to add this application.
