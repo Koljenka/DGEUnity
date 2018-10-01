@@ -14,7 +14,7 @@ There is a `docker-compose.yml` in the `/docker` directory.
 First of all you have to declare the [environment variables](#environment-variables) inside of the `docker-compose.yml`.
 
 
-Then you can run `docker-comopse up --build` inside the `/docker` directory. This may take a while. On the first startup the Database will probably crash. This is normal as the database setup takes longer than the startup of the oauth server, which than tries to access the database.
+Then you can run `docker-comopse up --build` inside the `/docker` directory. This may take a while. On the first startup the Database will probably crash. This is normal as the database setup takes longer than the startup of the oauth server, which then tries to access the database.
 But if it crashes, you just have to stop the running process and run `docker-compose up --build` again, then everything should be fine.
 
 Now you can navigate to `http://localhost:5001/` and click the green login button.
